@@ -9,4 +9,4 @@ jobs:
         MY_ACTION:${{github.actions}}
       steps: 
         - name: 'My step'
-          run: echo "Hello world ${{MY_ACTION}}"
+          run: echo "Hello world $MY_ACTION"
